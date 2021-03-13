@@ -19,6 +19,7 @@ export type BoxHTMLProps = React.HTMLAttributes<any> &
      * will be passed.
      */
     wrapElement?: (element: React.ReactNode) => React.ReactNode;
+    console.log("");
   };
 
 export type BoxProps = BoxOptions & BoxHTMLProps;
