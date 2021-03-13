@@ -1,7 +1,7 @@
 import * as React from "react";
-import { createComponent } from "reakit-system/createComponent";
-import { createHook } from "reakit-system/createHook";
-import { shallowEqual } from "reakit-utils/shallowEqual";
+// import { createComponent } from "reakit-system/createComponent";
+// import { createHook } from "reakit-system/createHook";
+// import { shallowEqual } from "reakit-utils/shallowEqual";
 import { BOX_KEYS } from "./__keys";
 
 export type BoxOptions = {
@@ -19,7 +19,6 @@ export type BoxHTMLProps = React.HTMLAttributes<any> &
      * will be passed.
      */
     wrapElement?: (element: React.ReactNode) => React.ReactNode;
-    console.log("");
   };
 
 export type BoxProps = BoxOptions & BoxHTMLProps;
