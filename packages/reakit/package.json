@@ -22,7 +22,6 @@
     "test": "jest",
     "coverage": "yarn test --coverage",
     "postcoverage": "open-cli coverage/lcov-report/index.html",
-    "lint": "eslint . --ext js,ts,tsx",
     "clean": "node ../../scripts/build/clean.js",
     "build": "node ../../scripts/build/build.js",
     "keys": "node ../../scripts/build/keys.js",
