@@ -34,12 +34,6 @@ jobs:
     - name: Install dependencies
       run: yarn
 
-    - name: Lint
-      run: yarn lint
-
-    - name: Lint CSS
-      run: yarn lint:css
-
     - name: Docs
       run: yarn docs
 
