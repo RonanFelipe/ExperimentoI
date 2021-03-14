@@ -40,9 +40,6 @@ jobs:
     - name: Build
       run: yarn build
 
-    - name: Type check
-      run: yarn type-check
-
     - name: Test
       run: yarn test --coverage
 
