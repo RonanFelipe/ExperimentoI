@@ -40,9 +40,6 @@ jobs:
     - name: Build
       run: yarn build
 
-    - name: Test
-      run: yarn test --coverage
-
     - name: Check build output is checked in
       run: node ./scripts/build/check.js
 
