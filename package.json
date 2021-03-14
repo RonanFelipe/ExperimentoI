@@ -121,5 +121,8 @@
     "ts-morph": "7.3.0",
     "typescript": "3.9.7",
     "unified": "9.2.0"
+  },
+  "dependencies": {
+    "yarn": "1.22.10"
   }
 }
