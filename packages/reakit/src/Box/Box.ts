@@ -3,6 +3,7 @@ import * as React from "react";
 // import { createHook } from "reakit-system/createHook";
 // import { shallowEqual } from "reakit-utils/shallowEqual";
 import { BOX_KEYS } from "./__keys";
+// Ronan Felipe Nascimento de Souza
 
 export type BoxOptions = {
   /**
